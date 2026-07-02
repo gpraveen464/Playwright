@@ -13,4 +13,7 @@ test.describe('Regression Suite', () => {
     await obj.loginToApplication();
     await obj.logoutFromApplication();
   } );
+    test('TC003', async ({ page }) => {
+console.log("TC003");
+  } );
 });
