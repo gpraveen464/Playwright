@@ -11,7 +11,7 @@ test.describe('Regression Suite', () => {
     const obj = new General(page);
     await obj.OpenApplication();
     await obj.loginToApplication();
-    await obj.logoutFromApplication();
+    //await obj.logoutFromApplication();
   } );
     test('TC003', async ({ page }) => {
 console.log("TC003");
