@@ -12,7 +12,7 @@ async loginToApplication(){
     console.log("Login is done successfully");
 }
 async logoutFromApplication(){
-    //await this.page.locator(this.link_logout).click();
+
     console.log("Logout is done successfully");
 }
 }
