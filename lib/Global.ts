@@ -14,6 +14,6 @@ public password: string = "sureshit";
 public textbox_loginname   : string = "//input[@name='txtUserName']";
 public textbox_password    : string = "//input[@name='txtPassword']";
 public button_login        : string = "//input[@value='Login']"
-//public link_logout       : string = "//a[text()='logout']";
+public link_logout       : string = "//a[text()='Logout']";
 
 }
